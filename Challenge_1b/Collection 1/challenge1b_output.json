@@ -15,51 +15,5 @@
         "processor_version": "offline_v1.0"
     },
     "extracted_sections": [
-        {
-            "document": "PDFs/South of France - Cities.pdf",
-            "section_title": "Aix-en-Provence: A City of Art and Culture History Aix-en-Provence, founded b...",
-            "importance_rank": 1,
-            "page_number": 8
-        },
-        {
-            "document": "PDFs/South of France - Tips and Tricks.pdf",
-            "section_title": "General Packing Tips and Tricks Layering: The weather can vary, so pack layer...",
-            "importance_rank": 2,
-            "page_number": 2
-        },
-        {
-            "document": "PDFs/South of France - Traditions and Culture.pdf",
-            "section_title": "used to create nativity scenes",
-            "importance_rank": 3,
-            "page_number": 5
-        },
-        {
-            "document": "PDFs/South of France - Cuisine.pdf",
-            "section_title": "Cheese Tasting: The South of France is home to a variety of delicious cheeses...",
-            "importance_rank": 4,
-            "page_number": 7
-        }
-    ],
-    "subsection_analysis": [
-        {
-            "document": "PDFs/South of France - Cities.pdf",
-            "refined_text": "Aix-en-Provence: A City of Art and Culture History Aix-en-Provence, founded by the Romans in 123 BC, is known for its elegant architecture, vibrant cultural scene, and association with the painter Paul Cézanne. Hôtel de Ville: The town hall of Aix-en-Provence, built in the 17th century, is an elegant building with a beautiful clock tower and an ornate facade. The city hosts several festivals throughout the year, including the Festival d Aix- en-Provence, which features opera and classical music performances. Atelier Cézanne: The studio of Paul Cézanne, one of the most famous painters associated with Aix-en-Provence, is preserved as a museum. Local Markets: Visit the city s famous markets, such as the flower market at Place de l Hôtel de Ville or the food market at Place Richelme. The city s rich history is reflected in its beautiful buildings and lively atmosphere. Aix-en-Provence has been a center of art and learning for centuries, attracting artists, writers, and scholars. Key Attractions   Cours Mirabeau: This grand boulevard, lined with plane trees, cafes, and fountains, is the heart of Aix-en-Provence. It is a great place to soak up the city s atmosphere.",
-            "page_number": 8
-        },
-        {
-            "document": "PDFs/South of France - Tips and Tricks.pdf",
-            "refined_text": "General Packing Tips and Tricks   Layering: The weather can vary, so pack layers to stay comfortable in diﬀerent temperatures. Packing Cubes: Use packing cubes to organize your clothes and maximize suitcase space. Reusable Bags: Pack a few reusable bags for laundry, shoes, or shopping. Versatile Clothing: Choose items that can be mixed and matched to create multiple outfits, helping you pack lighter. Roll Your Clothes: Rolling clothes saves space and reduces wrinkles. Travel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with airline regulations. Portable Laundry Kit: A small laundry kit with detergent and a travel clothesline can be handy for longer trips. Multi-Purpose Shoes: Choose shoes that are comfortable for walking but can also be worn to a nice dinner. Travel Pillow and Blanket: A compact travel pillow and blanket can make long flights or train rides more comfortable. Emergency Contact List: Have a list of emergency contacts, including local embassy or consulate information. First Aid Kit: Include a small first aid kit with band-aids, antiseptic wipes, and any necessary medications. Copies of Important Documents: Make copies of your passport, travel insurance, and other important documents.",
-            "page_number": 2
-        },
-        {
-            "document": "PDFs/South of France - Traditions and Culture.pdf",
-            "refined_text": "Music and Dance Provençal Folk Music Provençal folk music is an essential part of the region s cultural identity. Traditional instruments, such as the galoubet (a type of flute) and tambourin (a drum), are often used in folk music performances. Jazz Manouche The South of France has a rich tradition of Jazz manouche. Conclusion The South of France is a region steeped in traditions and cultural heritage that reflect its diverse history and influences. Folk dances, such as the farandole, are performed at festivals and celebrations, with participants forming long chains and weaving through the streets. The annual Django Reinhardt Festival in Samois-sur-Seine celebrates his legacy with performances by top jazz manouche musicians. Use this guide to immerse yourself in the unique cultural landscape of this beautiful region and create lasting memories of your journey. The music is characterized by lively rhythms and melodies that reflect the region s festive spirit. Whether you re exploring the picturesque villages, participating in local celebrations, or savoring the flavors of Provençal cuisine, you ll find that the traditions and culture of the South of France provide a deep and enriching experience. used to create nativity scenes.",
-            "page_number": 5
-        },
-        {
-            "document": "PDFs/South of France - Cuisine.pdf",
-            "refined_text": "Cheese Tasting: The South of France is home to a variety of delicious cheeses, including Roquefort, Banon, and Picodon. Pastry Workshops: French pastries are renowned worldwide, and the South of France is no exception. Visit a local fromagerie (cheese shop) or a farm to sample these cheeses and learn about their production. Join a pastry workshop to learn how to make classic French pastries like croissants, éclairs, and macarons. These workshops are a fun and interactive way to improve your baking skills and take home some delicious treats. Many cheese producers oﬀer tours and tastings, giving you the opportunity to discover the unique flavors and textures of the region s cheeses.",
-            "page_number": 7
-        }
     ]
 }
