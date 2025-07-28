@@ -1,0 +1,7 @@
+pymupdf
+pdfplumber
+spacy
+jsonschema
+pytesseract
+pillow
+nltk
