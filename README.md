@@ -106,21 +106,11 @@ docker build -t pdf-processor .
 ```
 for collection 1
 ```bash
-docker run --rm `
->>   -v "${PWD}\Collection 1\challenge1b_input.json:/app/challenge1b_input.json" `
->>   -v "${PWD}\Collection 1\PDFs:/app/PDFs" `
->>   -v "${PWD}\Collection 1:/app/output" `
->>   pdf-processor `
->>   python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
+docker run --rm -v "${PWD}\Collection 1\challenge1b_input.json:/app/challenge1b_input.json" -v "${PWD}\Collection 1\PDFs:/app/PDFs" -v "${PWD}\Collection 1:/app/output" pdf-processor python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
 ```
 for collection 2
 ```bash
-docker run --rm `
-  -v "${PWD}\Collection_2\challenge1b_input.json:/app/challenge1b_input.json" `
-  -v "${PWD}\Collection_2\PDFs:/app/PDFs" `
-  -v "${PWD}\Collection_2:/app/output" `
-  pdf-processor `
-  python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
+docker run --rm -v "${PWD}\Collection 2\challenge1b_input.json:/app/challenge1b_input.json" -v "${PWD}\Collection 2\PDFs:/app/PDFs" -v "${PWD}\Collection 2:/app/output" pdf-processor python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
 ```
 for collection 3
 ```bash
