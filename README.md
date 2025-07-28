@@ -93,8 +93,10 @@ For full documentation and methodology, refer to:
 **Challenge 1A**:
 ```bash
 cd Challenge_1a
-docker build --platform linux/amd64 -t doc-structure .
-docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output doc-structure
+docker build -t pdf-processor .
+
+docker run --rm -v ${PWD}/sample_dataset:/app/sample_dataset pdf-processor
+
 ```
 
 **Challenge 1B**:
