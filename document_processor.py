@@ -490,6 +490,20 @@ def main():
     
     logger.info("Processing completed!")
 
-if __name__ == "__main__":
 
+def main():
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--input", required=True, help="Path to input JSON")
+    parser.add_argument("--output", default="output.json", help="Path to write output JSON")
+    args = parser.parse_args()
+
+    if not os.path.exists(args.input):
+        logger.error(f"Input file {args.input} not found!")
+        return
+
+    processor = OfflineDocumentProcessor()
+    processor.process_documents(args.input, args.output)
+
+if __name__ == "__main__":
     main()

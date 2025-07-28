@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY processor.py .
 
 # Entry point: You can override these at run-time
-ENTRYPOINT ["python", "processor.py"]
+CMD [ "executable" ] ["python", "processor.py"]
