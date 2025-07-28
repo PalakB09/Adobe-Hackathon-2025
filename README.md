@@ -101,7 +101,9 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output doc-stru
 ```bash
 cd Challenge_1b
 docker build -t pdf-processor .
-
+```
+for collection 1
+```bash
 docker run --rm `
 >>   -v "${PWD}\Collection 1\challenge1b_input.json:/app/challenge1b_input.json" `
 >>   -v "${PWD}\Collection 1\PDFs:/app/PDFs" `
@@ -109,7 +111,25 @@ docker run --rm `
 >>   pdf-processor `
 >>   python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
 ```
+for collection 2
+```bash
+docker run --rm `
+  -v "${PWD}\Collection_2\challenge1b_input.json:/app/challenge1b_input.json" `
+  -v "${PWD}\Collection_2\PDFs:/app/PDFs" `
+  -v "${PWD}\Collection_2:/app/output" `
+  pdf-processor `
+  python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
+```
+for collection 3
+```bash
+docker run --rm `
+  -v "${PWD}\Collection 3\challenge1b_input.json:/app/challenge1b_input.json" `
+  -v "${PWD}\Collection 3\PDFs:/app/PDFs" `
+  -v "${PWD}\Collection 3:/app/output" `
+  pdf-processor `
+  python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
 
+```
 Each challenge has a separate entry point script that automatically processes available files and prints or stores the results.
 
 ## Why Our Solution Stands Out
