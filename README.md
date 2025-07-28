@@ -100,8 +100,14 @@ docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output doc-stru
 **Challenge 1B**:
 ```bash
 cd Challenge_1b
-docker build --platform linux/amd64 -t doc-intelligence .
-docker run --rm -v $(pwd)/collections:/app/collections doc-intelligence
+docker build -t pdf-processor .
+
+docker run --rm `
+>>   -v "${PWD}\Collection 1\challenge1b_input.json:/app/challenge1b_input.json" `
+>>   -v "${PWD}\Collection 1\PDFs:/app/PDFs" `
+>>   -v "${PWD}\Collection 1:/app/output" `
+>>   pdf-processor `
+>>   python document_processor.py --input challenge1b_input.json --output output/challenge1b_output.json
 ```
 
 Each challenge has a separate entry point script that automatically processes available files and prints or stores the results.
