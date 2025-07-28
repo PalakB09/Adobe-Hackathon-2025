@@ -377,10 +377,16 @@ class OfflineDocumentProcessor:
         # Process each document
         for doc_info in documents:
             filename = doc_info["filename"]
-            
+
+# Support subdirectory where PDFs are stored
             if not os.path.exists(filename):
-                logger.warning(f"File not found: {filename}")
-                continue
+                pdf_path = os.path.join("PDFs", filename)
+                if os.path.exists(pdf_path):
+                    filename = pdf_path
+                else:
+                    logger.warning(f"File not found: {filename}")
+                    continue
+
             
             logger.info(f"Processing {filename}")
             
