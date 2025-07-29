@@ -13,12 +13,17 @@ This is a **sample solution** for Challenge 1a of the Adobe India Hackathon 2025
 
 ### Build Command
 ```bash
-docker build --platform linux/amd64 -t <reponame.someidentifier> .
+docker build --platform linux/amd64 -t pdf-processor .
 ```
 
 ### Run Command
 ```bash
-docker run --rm -v $(pwd)/input:/app/input:ro -v $(pwd)/output/repoidentifier/:/app/output --network none <reponame.someidentifier>
+docker run --rm \
+  -v $(pwd)/sample_dataset/pdfs:/app/input:ro \
+  -v $(pwd)/sample_dataset/outputs:/app/output \
+  --network none \
+  pdf-processor
+
 ```
 
 ### Critical Constraints
